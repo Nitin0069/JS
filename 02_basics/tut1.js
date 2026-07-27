@@ -6,8 +6,8 @@ console.log(Arr2.length);
 
 
 //ARRAY methods
-const myArr = [0, 1, 2, 3]
-myArr.push(4,5);
+const myArr = ["zero", "one", "two", "three", "four"]
+/*myArr.push(4,5);
 myArr.pop();
 
 
@@ -21,7 +21,23 @@ const newArr = myArr.join();
 console.log(myArr);
 console.log(newArr);
 console.log(typeof myArr);
-console.log(typeof newArr);
+console.log(typeof newArr); */
+
+
+// slice , splice 
+
+console.log("oyeeee");
+console.log( "A ",myArr);
+const myn1 = myArr.slice(1,3)
+console.log(myn1)
+console.log(myArr);
+
+console.log("B", myArr );
+const myn2 = myArr.splice(1,3)
+console.log(myn2);
+console.log(myArr);
+
+
 
 
 
