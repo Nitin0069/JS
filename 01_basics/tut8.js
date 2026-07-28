@@ -7,7 +7,6 @@ console.log(Math.sqrt(49));
 console.log((Math.random() * 10).toPrecision(1));
 
 
-; 
 
 /*const min = 10;
 const max = 20;
