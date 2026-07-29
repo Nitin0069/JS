@@ -1,10 +1,38 @@
-const course = {
-coursename: "js" ,
-price: 999 ,
-courseInstructor: "hitesh"
+function sayMyName() {
+    console.log("Nitin");
+        console.log("Nitin");
+    console.log("Nitin");
+    console.log("Nitin");
+    console.log("Nitin");
 }
-course.courseInstructor 
 
-const  {courseInstructor: ins} = course
+sayMyName();
 
-console.log(ins);
+
+
+
+  /*function add ( ) {
+    console.log(3+4);
+};
+add();
+
+function addi (num1, num2) {
+    console.log(num1 + num2)
+}
+
+addi(9,3); */
+
+function add2 (num1, num2) {
+   // let result = num1 + num2 
+    return num1 + num2;
+}
+
+//const reesult = add2(3,5)
+console.log("Result: ", add2()); 
+
+function add3 (numm1, numm2) {
+   console.log(numm1 + numm2);
+}
+
+const result = add3(9,5)
+//console.log("Result: ", result);
