@@ -28,11 +28,23 @@ function add2 (num1, num2) {
 }
 
 //const reesult = add2(3,5)
-console.log("Result: ", add2()); 
+//console.log("Result: ", add2()); 
 
-function add3 (numm1, numm2) {
-   console.log(numm1 + numm2);
+//function add3 (numm1, numm2) { 
+ //  console.log(numm1 + numm2);
+//}
+
+//const result = add3(9,5)
+//console.log("Result: ", result);
+
+function login(username) {
+    if (username === undefined) {
+   console.log("Please enter a username")
+    }
+    return ` ${username}just logged in `
 }
 
-const result = add3(9,5)
-//console.log("Result: ", result);
+//console.log(login("hitesh"));
+console.log(login());
+
+
