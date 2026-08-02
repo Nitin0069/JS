@@ -27,7 +27,7 @@ chai(); */
 }
 chai();   */
 
-
+/*
 const add  = (a,b) => {
     return a + b
 }
@@ -48,4 +48,16 @@ function sum (num1 ,num2) {
 
 console.log(addTwo(3,4));
 
+*/
 
+
+let username = " nitin";
+//let username = "rahul";
+
+(function chai () {
+    console.log("rnam");
+})(); 
+
+( () => {
+    console.log("llo");
+} ) (); 
