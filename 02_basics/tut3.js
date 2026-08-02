@@ -32,16 +32,6 @@ console.log(JsUser.greeting2());
 
 
 
-
-
-
-
-
-
-
-
-
-
 // object literals
 /*const JsUser = {
     name: "Hitesh",
