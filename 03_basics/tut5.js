@@ -8,3 +8,23 @@ function addNum(num1, num2) {
 let result1 = addNum(val1, val2);
 let result2 = addNum(10,2);
 console.log(this);
+
+function one() {
+
+    two();
+
+}
+
+function two() {
+
+    three();
+
+}
+
+function three() {
+
+    console.log("Hello");
+
+}
+
+one();
