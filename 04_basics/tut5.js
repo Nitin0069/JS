@@ -45,11 +45,30 @@
 }  */
 
   /* for (let i = 1; i <= 3; i++) {
-
+console.log(i);
     for (let j = 1; j <= 3; j++) {
 
         console.log(i, j);
 
     }
 
-} */
+}  */
+
+const myArray = ["a" , "b" , "c" , "d"];
+for (let i = 0; i < myArray.length; i++) {
+    if (i === 2);
+  //  console.log(myArray);
+    break;
+}
+
+
+//break and continue
+
+
+for (let i = 1; i <= 20; i++) {
+    if (i === 10) {
+    continue;
+    }
+console.log(`value of i is ${i} `);
+    
+}
