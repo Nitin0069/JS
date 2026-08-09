@@ -37,7 +37,7 @@ const obj = users.filter( (nay) => nay.age )
 .map( (nay) => nay.name )
 console.log(obj) */
 
-
+/*
 
 
 const sum = [10,20,30,40]
@@ -65,3 +65,58 @@ const nakshu = number.reduce ( ( accc, currr) => {
     
 },0)
 console.log(nakshu);
+
+  */
+
+
+//const marks = [80, 70, 90, 60, 100];
+
+ /*onst avgg = marks.reduce ( (no, yo) => {
+return no + yo / 5;
+},0)
+console.log(avgg);
+*/
+
+
+/*
+const fruits = [
+    "apple",
+    "banana",
+    "apple",
+    "orange",
+    "banana",
+    "apple"
+];
+
+
+const val = fruits.reduce( (noo, yoo) => {
+    if (yoo == "apple") {
+        return noo + 1;
+    } 
+    else { 
+        return noo;
+    }
+},0)
+console.log(val);
+*/
+
+
+
+const products = [
+    { name: "Laptop", category: "electronics", price: 50000 },
+    { name: "Phone", category: "electronics", price: 30000 },
+    { name: "Shirt", category: "clothing", price: 2000 },
+    { name: "Jeans", category: "clothing", price: 3000 },
+    { name: "Headphones", category: "electronics", price: 5000 }
+];
+
+
+const last = products.reduce( (noo , yoo) => {
+if (yoo.category == "electronics" ) {
+     return noo + yoo.price;
+    } else {
+        return noo;
+    }
+
+},0);
+console.log(last);
