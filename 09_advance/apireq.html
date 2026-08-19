@@ -17,7 +17,7 @@
     xml.open('GET', 'https://api.freeapi.app/api/v1/public/randomusers?page=1&limit=10')
  xml.onreadystatechange = function () {
    console.log(xml.readyState)
-   if (xml.readystate === 4) {
+   if (xml.onreadystat === 4) {
     const data = JSON.parse(this.responseText)
     console.log(data)
    }
