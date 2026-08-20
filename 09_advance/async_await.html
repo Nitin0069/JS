@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1> chl </h1>
+<script>
+/*
+
+async function hello () {
+    return "hello"
+}
+hello()
+*/
+/*
+
+async function consumepromise4 () {
+    try{
+        const user = await promisefour;
+        console.log(user)
+        console.log(user.username);
+
+    }
+    catch (error) {
+        console.log(error);
+    }
+}
+    */
+/*
+function api () {
+    return new Promise (function (resolve, reject) {
+        setTimeout(() =>{
+            console.log("weather api")
+            resolve ("200");
+        },2000)
+    })
+}
+async function getweatherData (yoo) {
+const data =     await api();
+console.log(data)
+}
+
+getweatherData();
+*/
+
+const promisefour = new Promise(function (resolve, reject) {
+    let error = true;
+    if (!error) {
+        resolve({ username: "javascript", roll: "js" });
+    } else {
+        reject("nhi chala ");
+    }
+});
+
+async function user() {
+    try {
+        const data = await promisefour;
+        console.log(data);
+    } catch (error) {
+        console.log(error); 
+    }
+}
+
+user();
+
+
+
+/*
+async function gwak  (){
+    const chal =  await promisefour;
+     console.log(chal)
+     console.log(chal.username)
+}
+gwak(); 
+*/
+</script>
+
+</body>
+</html>
