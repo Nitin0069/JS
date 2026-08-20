@@ -48,7 +48,7 @@ console.log(data)
 
 getweatherData();
 */
-
+/*
 const promisefour = new Promise(function (resolve, reject) {
     let error = true;
     if (!error) {
@@ -79,6 +79,28 @@ async function gwak  (){
 }
 gwak(); 
 */
+
+async function apiaaja() {
+
+    try {
+        const apii = await fetch('https://jsonplaceholder.typicode.com/users');
+
+        const data = await apii.json();
+
+        console.log(data);
+
+    } catch (error) {
+        console.log(error);
+    }
+
+}
+
+apiaaja();
+
+
+
+const function
+
 </script>
 
 </body>
