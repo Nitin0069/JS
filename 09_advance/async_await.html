@@ -80,7 +80,7 @@ async function gwak  (){
 gwak(); 
 */
 
-async function apiaaja() {
+ /* async function apiaaja() {
 
     try {
         const apii = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -93,13 +93,23 @@ async function apiaaja() {
         console.log(error);
     }
 
-}
+}. */
 
-apiaaja();
+//apiaaja();
 
 
+fetch('https://jsonplaceholder.typicode.com/users')
+.then(function ( nitu){
+    return nitu.json()
+})
+.then (function (aaja ){
+    console.log(aaja)
+})
+.catch (function (galat ) {
+    console.log("galat")
+})
 
-const function
+
 
 </script>
 
